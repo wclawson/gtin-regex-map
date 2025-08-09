@@ -1,0 +1,5 @@
+{
+  "samsclub.com": "upc"\s*:\s*"(\d{12})",
+  "some-retailer.com": "\"upc\":\"(\\d{12})\"",
+  "anotherstore.org": "<meta name=\\\"product-upc\\\" content=\\\"(\\d{12})\\\">"
+}
