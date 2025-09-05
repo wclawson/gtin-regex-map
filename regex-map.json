@@ -1,6 +1,5 @@
 {
   "samsclub.com": "upc\\s*:\\s*['\"](\\d{12})['\"]",
   "walgreens.com": "\"gtin\":\"(\\d{14})\"",
-  "dollargeneral.com": "&#34;upc&#34;:(\\d{12})",
-  "cvs.com": "&#34;upc&#34;:(\\d{12})"
+  "dollargeneral.com": "&#34;upc&#34;:(\\d{12})"
 }
