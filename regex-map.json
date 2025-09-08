@@ -1,6 +1,16 @@
+
 {
-  "samsclub.com": "upc\\s*:\\s*['\"](\\d{12})['\"]",
-  "walgreens.com": "\"gtin\":\"(\\d{14})\"",
-  "dollargeneral.com": "\"upc\":(\\d{11,12})",
-  "cvs.com": "/bizcontent/merchandising/productimages/high_res/(\\d+)\\.jpg"
+  "samsclub.com": "\"gtin13\":\"(\\d{12,14})\"",
+  "walgreens.com": {
+    "regex": "\"gtin\":\"(\\d{14})\"",
+    "searchTargets": ["TBD_BASED_ON_SNIPPET"]
+  },
+  "dollargeneral.com": {
+    "regex": "\"upc\":(\\d{11,12})",
+    "searchTargets": ["[data-product-detail-json-response]"]
+  },
+  "cvs.com": {
+    "regex": "/bizcontent/merchandising/productimages/high_res/(\\d+)\\.jpg",
+    "searchTargets": ["TBD_BASED_ON_SNIPPET"]
+  }
 }
