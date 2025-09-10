@@ -5,10 +5,6 @@
     "regex": "\"gtin\":\"(\\d{14})\"",
     "searchTargets": ["TBD_BASED_ON_NEED"]
   },
-  "dollargeneral.com": {
-    "regex": "\"upc\":(\\d{11,12})",
-    "searchTargets": ["[data-product-detail-json-response]"]
-  },
   "cvs.com": {
     "regex": "/bizcontent/merchandising/productimages/high_res/(\\d+)\\.jpg",
     "searchTargets": ["TBD_BASED_ON_NEED"]
